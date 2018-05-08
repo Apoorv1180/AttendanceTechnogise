@@ -151,6 +151,7 @@ public class MainActivity extends AppCompatActivity {
             // if menu Refresh is selected
             case R.id.refresh:
                 mFirebaseDatabase.getReference().keepSynced(true);
+                Toast.makeText(getApplicationContext(),getResources().getString(R.string.refresh),Toast.LENGTH_SHORT).show();
                 break;
         }
         return super.onOptionsItemSelected(item);

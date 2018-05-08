@@ -7,5 +7,6 @@
     <string name="server_error_message">Could Not Connect To The Server ! PLEASE Try Again!!</string>
     <string name="result_not_found">Result Not Found!!</string>
     <string name="scan_error">COuld Not Scan The Provided QR Code! Please Try Again Later</string>
+    <string name="refresh">Data Refreshed!!</string>
 
 </resources>
